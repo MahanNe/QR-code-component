@@ -1,0 +1,33 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --DarkBlue: hsl(218, 44%, 22%);
+}
+
+.body {
+    background-color: var(--LightGray);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.card.shadow-lg.border-light.bg-light.rounded-5 {
+    line-height: 1.5;
+    max-width: 375px;
+}
+
+.card-title.m-4 {
+    color: var(--DarkBlue);
+    font-weight: 800;
+}
+
+.card-text.m-4 {
+    color: var(--GrayishBlue);
+    font-family: 'Outfit';
+    font-weight: 600;
+}
